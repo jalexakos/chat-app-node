@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <title>Home Page</title>
 </head>
 <body>
     <h1>Chat App</h1>
-
+    <form id="message-form">
+        <input name="message" type="text" placeholder="Type your message here">
+        <button>Send message</button>
+    </form>
+    <button id="send-location">Send location</button>
     <p>Testing</p>
 </body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/chat.js"></script>
 </html>

@@ -1,6 +1,6 @@
 # Chat App with Node
 
-Learning Node.JS by building a Chat App.
+Learning Node.JS by building a real time web application - Chat App.
 
 From "The Complete Node.js Developer Course" by Andrew Mead on Udemy ([found here](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)).
 
